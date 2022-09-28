@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Custom classes */
+
+.f1 {
+    font-size: 2rem;
+}
+
+.pad5 {
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-dark {
+    background: #000;
+}
+
+.text-light {
+    color: #fff;
+}
+
+.no {
+    display: none;
+}
+
+.btn {
+    padding: 10px;
+    background: gold;
+    color: #000;
+    transition: 500ms ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/* End */
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background: rgb(240, 240, 240) ;
+    color: black;
+    
+}
+
+.active a {
+    background-color: gold;
+}
+
+
+.navbar .logo {
+    padding-left: 40px;
+}
+
+
+.active:hover {
+    color: black;
+}
+
+.navbar h1 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.navbar .links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .links .link {
+    margin: 15px;
+    font-size: 1.2rem;
+    transition: 500ms ease-in-out;
+}
+
+.navbar .links .link:hover {
+    transform: scale(1.2);
+}
+
+.navbar .links .link a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 500ms ease;
+}
+
+.navbar .links .link a:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+.main {
+    height: 78vh;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: url(./images/design1_image1.jpg);
+}
+
+.main .title {
+    text-align: center;
+    font-size: 3rem;
+    color: gold;
+    padding-top: 3rem;
+}
+
+.events-title {
+    text-align: center;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.events {
+    display: flex;
+    background: rgb(240, 240, 240);
+    height: 50vh;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.events .content {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: #fff;
+    width: 400px;
+    text-align: center;
+    height: 300px;
+    transition: 500ms ease-in-out;
+}
+
+.events .content:hover {
+    transform: scale(1.1);
+}
+
+.events 
+#content1 h3
+,#content2 h3
+,#content3 h3{
+    color: firebrick;
+    font-size: 2rem;
+}
+
+.events #content1 p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.events #content2 p{
+    font-size: 1.3rem;
+}
+
+.events #content3 p{
+    font-size: 1.4rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imp {
+    height: 8vh;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    
+}
+
+.imp h3 {
+    color: firebrick;
+    padding-top: 18px;
+    
+}
+
+.fixed-move {
+    height: 300px;
+    background-image: url(images/design1_image1.jpg);
+    background-attachment: fixed;
+}
+
+.info-container {
+    background: rgb(240, 240, 240);
+}
+
+.info-item {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 15px;
+}
+
+.info-item a{
+    text-decoration: none;
+    font-weight: bold;
+    color: firebrick;
+}
+
+.footer {
+    height: 10vh;
+    text-align: center;
+    padding-top: 15px;
+    background: #000;
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: firebrick;
+}
+
+
+/* FeedBack Sent page */
+
+.feedback-body{
+    background: linear-gradient(to left, #b0c1e4, #d0cdcd);
+}
