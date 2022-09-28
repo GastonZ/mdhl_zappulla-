@@ -1,0 +1,331 @@
+/* About page */
+
+.about-container {
+    display: flex;
+    margin: 30px;
+    background:rgb(240, 240, 240);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.about-container .about-item img {
+    height: 600px;
+    width: 750px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.about-container .about-item {
+    padding: 15px;
+}
+
+.about-container .about-item .text-center {
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+}
+
+.about-container .about-item .item-content {
+    margin: 3rem;
+}
+
+.about-container .about-item .item-content h2{
+    padding: 0.5rem;
+    letter-spacing: 1.5px;
+
+}
+
+.about-container .about-item .item-content p {
+    margin: 15px;   
+}
+
+
+/* Contact Page */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    align-items: center;
+    background: rgb(240, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+.contact-container .contact-item {
+    padding: 2rem;
+}
+
+.contact-container .contact-item img {
+    height: 450px;
+    width: 600px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.contact-item a {
+    color: goldenrod;
+}
+
+/* Rules page */
+
+.header {
+    text-align: center;
+    background: #2B2A28;
+    color: #fff;
+    padding: 2rem;
+    letter-spacing: 3px;
+}
+
+.header h2 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.header p {
+    padding: 10px;
+}
+
+.rules-container {
+    background: #E7E6E3;
+    padding: 30px;
+
+}
+
+.rules-container .rules {
+    padding: 2rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rules-container .rules h2 {
+    color: firebrick;
+    font-size: 2rem;
+    padding-bottom: 15px;
+}
+
+.rules-container .rules p {
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.rules-container .rules .rules-ol .list-letter {
+    padding: 15px;
+}
+
+.rules-container .rules .rules-ol .list-letter li {
+    list-style: lower-alpha;
+    margin: 5px;
+}
+
+.rules ul li {
+    list-style: circle;
+}
+
+/* Game page */
+
+.game-fall {
+    height: 10vh;
+    margin: 15px;
+    background: #f2f2f2;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.game-fall h2 {
+    padding: 10px;
+}
+
+.game-fall p {
+    padding-left: 20px;
+    margin-left: 10px;
+    font-style: italic;
+    border-bottom: 1px solid;
+    width: fit-content;
+}
+
+#games {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#games td,
+#games th {
+/*     border: 1px solid #ddd; */
+    padding: 10px;
+}
+
+#games th{
+    text-transform: uppercase;
+}
+
+#games tr:nth-child(even) {
+    background-color: #cdcdcd;
+}
+
+#games tr {
+    transition: 250ms ease;
+}
+
+#games tr:hover {
+    background-color: #f2f2f2;
+}
+
+#games th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2B2A28;
+    color: white;
+}
+
+
+.game-container {
+    height: 50vh;
+    background: #f2f2f2;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.game-container .game-item {
+    padding: 20px;
+}
+
+.game-container .game-item p {
+    margin: 15px;
+}
+
+.game-container .game-item span {
+    margin: 20px;
+}
+
+iframe {
+    height: 100px;
+    width: 100px;
+}
+
+fieldset {
+    border: none;
+}
+
+.form-container {
+    background: linear-gradient(to left, #e3e4e6, #FFFFFF);
+    height: fit-content;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.form .form-first-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    padding: 3px;
+/*     border: none; */
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    transition: 250ms ease-in-out;
+    border-top: #2B2A28;
+    border-left: none;
+    border-right: none;
+}
+
+input:hover {
+    background-color: #e0e3e8;
+}
+
+input:focus {
+    background-color: #e0e3e8;
+}
+
+.form .form-second-line input {
+    width: 80%;
+}
+
+.form .form-third-line {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.form .form-fourth-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form .form-fifth-line {
+    display: flex;
+}
+
+.form .form-fifth-line label {
+    margin-right: 15px;
+}
+
+/* .form .form-fifth-line .form-fifth-line-item {
+    margin-right: 50px;
+} */
+
+.form .school-input {
+    display: flex;
+}
+
+.form .school-input .school-item-column {
+    margin-right: 100px;
+
+}
+
+.form .form-position {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .form-position .form-position-item {
+    margin-right: 100px;
+    display: flex;
+    gap: 5px;
+}
+
+.form .form-position .form-position-item label {
+    margin-right: 100px;
+    padding-bottom: 15px;
+}
+
+.form .form-position .form-position-item input{
+    margin-top: 5px;
+}
+
+.form .form-uniform {
+    display: flex;
+}
+
+.form .form-uniform .form-uniform-column {
+    margin-right: 100px;
+}
+
+.form label {
+    padding-bottom: 15px;
+}
+
+.form .form-sign-line {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.form .submit {
+    padding: 15px;
+    font-size: 1.2rem;
+    background: #2B2A28;
+    color: #E7E6E3;
+    border-radius: 5px;
+    border: none;
+    transition: 250ms ease-in;
+    cursor: pointer;
+}
+
+.form .submit:hover {
+    background: #cdcdcd;
+    color: #2B2A28;
+}
